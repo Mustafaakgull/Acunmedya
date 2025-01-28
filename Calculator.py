@@ -24,3 +24,36 @@ def validate_number(value):
         return float(value)
     except ValueError:
         raise ValueError(f"Invalid input: {value} is not a number.")
+
+
+# /*çalıştırma metodu*/
+def perform_operation():
+    try:
+        input1 = input("Enter the first number: ")
+        num1 = validate_number(input1)
+
+        input2 = input("Enter the second number: ")
+        num2 = validate_number(input2)
+
+        print("Choose an operation: add, subtract, multiply, divide")
+        operation = input("Enter your choice: ").strip().lower()
+
+        if operation == "add":
+            print("Result:", add(num1, num2))
+        elif operation == "subtract":
+            print("Result:", subtraction(num1, num2))
+        elif operation == "multiply":
+            print("Result:", multiply(num1, num2))
+        elif operation == "divide":
+            try:
+                print("Result:", division(num1, num2))
+            except ValueError as e:
+                print(e)
+        else:
+            print("Invalid operation selected!")
+    except ValueError as e:
+        print(e)
+
+
+if __name__ == "__main__":
+    perform_operation()

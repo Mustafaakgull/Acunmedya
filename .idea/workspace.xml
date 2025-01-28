@@ -1,15 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="392c017d-639a-49e4-a1c1-b200b31e9cfd" name="Changes" comment="" />
+    <list default="true" id="392c017d-639a-49e4-a1c1-b200b31e9cfd" name="Changes" comment="input validation method added" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Mustafaakgull"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Mustafaakgull/Acunmedya.git",
+    "accountId": "c852fd2f-7209-4d96-b043-131c3440cfe6"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 7
 }]]></component>
@@ -23,6 +42,10 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -43,8 +66,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738025153796</updated>
-      <workItem from="1738025154909" duration="9000" />
+      <workItem from="1738025154909" duration="361000" />
     </task>
+    <task id="LOCAL-00001" summary="Calculator.py added">
+      <option name="closed" value="true" />
+      <created>1738025232732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738025232732</updated>
+    </task>
+    <task id="LOCAL-00002" summary="math library added, add method added">
+      <option name="closed" value="true" />
+      <created>1738025278579</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738025278579</updated>
+    </task>
+    <task id="LOCAL-00003" summary=" subtraction method added">
+      <option name="closed" value="true" />
+      <created>1738025316041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738025316041</updated>
+    </task>
+    <task id="LOCAL-00004" summary=" multiply and division methods added.">
+      <option name="closed" value="true" />
+      <created>1738025426041</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738025426041</updated>
+    </task>
+    <task id="LOCAL-00005" summary="input validation method added">
+      <option name="closed" value="true" />
+      <created>1738025512884</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738025512884</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Calculator.py added" />
+    <MESSAGE value="math library added, add method added" />
+    <MESSAGE value=" subtraction method added" />
+    <MESSAGE value=" multiply and division methods added." />
+    <MESSAGE value="input validation method added" />
+    <option name="LAST_COMMIT_MESSAGE" value="input validation method added" />
   </component>
 </project>
