@@ -17,3 +17,10 @@ def division(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Division by zero is not allowed!")
     return a / b
+
+# /*girilen değeri kontrol et metodu*/
+def validate_number(value):
+    try:
+        return float(value)
+    except ValueError:
+        raise ValueError(f"Invalid input: {value} is not a number.")
